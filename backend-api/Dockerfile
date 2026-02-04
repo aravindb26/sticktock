@@ -1,5 +1,5 @@
 # Use an official Node.js LTS base image
-FROM node:lts
+FROM node:24.13.0-bookworm
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
